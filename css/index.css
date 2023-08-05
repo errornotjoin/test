@@ -1,0 +1,95 @@
+body
+{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    margin-top:0px;
+    padding: 0px;
+    background-color: black;
+}
+a
+{
+    color: snow;
+    text-decoration: none;
+}
+.Main_Back_ground
+{
+    background-color: rgb(37, 37, 37);
+    color: snow;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 25%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 10px 10px 100px black;
+    z-index: 1;
+    position: relative;
+}
+
+.Main_Footer
+{
+    background-color: rgb(37, 37, 37);
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    text-align: center;
+    color: snow;
+    border-radius: 10px;
+    position: relative;
+    gap: 5%;
+    bottom: 40px;
+    z-index: 1;
+    box-shadow: -10px -10px 100px black;
+}
+.Main_Main
+{
+    background-color: rgb(7, 25, 73);
+    width: 99%;
+    height: 1900px;
+    position: relative;
+    bottom: 50px;
+    left: 0.5%;
+    text-align: center;
+    font-size: xx-large;
+    color: snow;
+}
+.Main_Footer ul
+{
+    background-color: rgb(6, 63, 128);
+    border-radius: 10px;
+    font-size:large;
+    width: 50%;
+    position: relative;
+    left: 20%;
+    text-align: center;
+}
+.Main_Footer ul h2
+{
+    background-color: rgb(7, 25, 73);
+    margin-right: 5px;
+    border-radius: 10px;
+}
+li
+{
+    list-style: none;
+}
+.Main_Footer ul li
+{
+    
+    margin-right: 35px;
+    margin-bottom: 20px;
+}
+.Main_Back_ground h2
+{
+    margin-left: 220px;
+}
+.Main_Back_ground div
+{
+    position: relative;
+    top: 20px;
+    font-size: large;
+}
+.Links_Divs
+{
+    display: flex;
+    gap: 20%;
+}
