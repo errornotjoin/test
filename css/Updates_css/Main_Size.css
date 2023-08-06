@@ -1,0 +1,35 @@
+.Uder_main_Header
+{
+    display: flex;
+    position: relative;
+    top: 55px;
+    text-align: center;
+    align-items: baseline;
+    background-color: rgb(150, 6, 6);
+    z-index: 0;
+    justify-content: center;
+    display: flex;
+    gap: 5%;
+    height: 100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.Uder_main_Header button, .Uder_main_Header input
+{
+    font-family: 'Kanit', sans-serif;
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+    background-color: rgb(5, 44, 88);
+    color: snow;
+    position: relative;
+    top: 20px;
+    width: 20%;
+    font-size: large;
+
+}
+.Uder_main_Header button:hover, .Uder_main_Header input:hover
+{
+    background-color: rgb(7, 25, 73);
+    box-shadow: 5px 5px 10px black;
+}
