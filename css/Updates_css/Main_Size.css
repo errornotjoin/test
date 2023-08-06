@@ -33,3 +33,38 @@
     background-color: rgb(7, 25, 73);
     box-shadow: 5px 5px 10px black;
 }
+.The_Update_Bit
+{
+    position: relative;
+    top: 60px;
+    text-align: center;
+    justify-self: center;
+    display: flex;
+    gap: 35%;
+    background-color: rgb(12, 12, 12);
+    width: 95%;
+    left: 3%;
+    border-radius: 10px;
+    height: 300px;
+}
+.The_dates,.Number
+{
+    background-color: rgb(37, 37, 37);
+}
+.The_dates
+{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.Number
+{
+    
+    width: 10%;
+    height: 300px;
+    position: relative;
+    
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+
+}
