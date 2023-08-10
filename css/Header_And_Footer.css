@@ -93,3 +93,95 @@ li
     display: flex;
     gap: 20%;
 }
+.Main_Button_for_Header
+{
+    display: none;
+}
+@media (max-width:1625px) {
+    .Main_Back_ground
+    {
+        display: flex;
+        gap: 20%;
+    }
+    .Links_Divs
+    {
+        gap: 5%;
+    }
+}
+@media (max-width:1421px) {
+    .Main_Back_ground
+    {
+        display: flex;
+        gap: 15%;
+    }
+}
+@media (max-width:1225px) {
+    .Main_Back_ground
+    {
+        display: flex;
+        gap: 10%;
+    }
+
+}    
+@media (max-width:1067px) {
+        .Main_Back_ground
+        {
+            display: flex;
+            gap: 5%;
+        }
+        .Links_Divs
+        {
+            flex-wrap: wrap;
+        }
+}
+@media (max-width:817px) {
+    .Main_Back_ground
+    {
+        display: flex;
+        gap: 10%;
+
+    }
+    .Some_Header
+    {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .link_To_hide_Soon
+    {
+        display: none;
+    }
+    .Main_Button_for_Header
+    {
+        display: inline-block;
+        width: 100%;
+        height: 50px;
+      
+        background-color: brown;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        position: relative;
+        top: 15px;
+    }
+    .Main_Back_ground h2
+    {
+    margin-left: 0px;
+    }
+    .Main_Back_ground div
+    {
+        position: relative;
+        top: 0px;
+        font-size: large;
+    }
+}
+@media (max-width:692px) {
+    .Main_Back_ground
+    {
+        display: flex;
+        gap: 5%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+}
