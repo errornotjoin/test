@@ -35,6 +35,8 @@
 }
 .The_Update_Bit
 {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     position: relative;
     top: 60px;
     text-align: center;
@@ -103,7 +105,16 @@
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
-@media (max-width:1334px) {
+@media (max-width:1094px) {
     
-    
+    .The_Update_Bit
+    {
+        display: flex;
+        gap: 30%;
+    }
+    .Uder_main_Header
+    {
+        display: flex;
+        gap: 2%;
+    }
 }

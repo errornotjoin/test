@@ -121,6 +121,11 @@ li
         display: flex;
         gap: 10%;
     }
+    .Main_Footer
+    {
+        display: flex;
+       flex-wrap: wrap;
+    }
 
 }    
 @media (max-width:1067px) {
@@ -178,10 +183,24 @@ li
     .Main_Back_ground
     {
         display: flex;
+        flex-direction: column;
         gap: 5%;
         justify-content: center;
         text-align: center;
         align-items: center;
+        
+    }
+    .Links_Divs
+    {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .Main_Button_for_Header
+    {
+        width: 100%;
+        color: snow;
     }
 
 }
