@@ -105,6 +105,10 @@
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
+.Big_Update_fixer
+{
+    padding-right: 35px;
+}
 @media (max-width:1094px) {
     
     .The_Update_Bit
