@@ -1,0 +1,92 @@
+.Main_Other_Main
+{
+    position: relative;
+    top: 10px;
+    display: grid;
+    grid-template-columns: 53% 45%;
+    grid-template-rows: 35% 20%;
+    gap: 5%;
+    
+}
+.main_Sections:first-of-type
+{
+    position: relative;
+    top: 10px;
+}
+.Qna
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.The_qna_Buttons
+{
+    width: 95%;
+    height: 30px;
+    border-radius: 10px;
+    background-image: linear-gradient(#252525, #363131,#222020);
+    color: snow;
+    border: none;
+}
+.Qna a
+{
+    color: rgb(9, 5, 255);
+}
+.Qna a:hover
+{
+    color: rgb(138, 4, 4);
+    text-shadow: 5px 5px 5px black;
+}
+.The_qna__main_Sections
+{
+    width: 95%;
+    background-image: linear-gradient(#2b2929, #0c0c0c,#050505);
+    position: relative;
+    left: 3%;
+    height: 300px;
+    border-radius: 10px;
+}
+.main_Sections
+{
+    background-image: linear-gradient(#2b2929, #0c0c0c,#050505);
+    height: max-content;
+    position: relative;
+    left: 1%;
+    border-radius: 10px;
+    width: 90%;
+}
+ul
+{
+    text-align: center;
+    align-items: center;
+}
+.Html,.Css,.js,.py
+{
+    
+    height: 30px;
+    color: black;
+    border-radius: 1000px;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    right: 2%;
+
+}
+.Html
+{
+    width: 100%;
+    background-color: orange;
+}
+.Css
+{
+    background-color: aqua;
+}
+.js
+{
+ background-color: yellowgreen;
+}
+.py
+{
+
+    background-color: green;
+}
