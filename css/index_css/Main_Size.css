@@ -1,6 +1,6 @@
 .Main_Main
 {
-    height: 2500px;
+    height: 2900px;
 }
 .Main_Other_Main
 {
@@ -23,7 +23,8 @@
     left: 2%;
     display: grid;
     grid-template-columns: 45% 45%;
-    grid-template-rows: 31% 31%;
+    grid-template-rows: 31% 43% 31%;
+    gap: 5%;
     
 }
 .Qna a
@@ -53,7 +54,7 @@ ol
     background-image: linear-gradient(#2b2929, #0c0c0c,#050505);
     position: relative;
     left: 3%;
-    height: max-content;
+    height: 500px;
     border-radius: 10px;
 }
 .main_Sections
