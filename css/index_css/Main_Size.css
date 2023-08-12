@@ -17,6 +17,11 @@
     position: relative;
     top: 10px;
 }
+.main_Sections:hover,.The_qna__main_Sections:hover
+{
+     box-shadow: 10px 10px 100px rgb(0, 0, 0) ;
+     background-image: linear-gradient(#2a964a, #19b803,#44e976);
+}
 .Qna
 {
     position: relative;
@@ -51,20 +56,22 @@ ol
 .The_qna__main_Sections
 {
     width: 95%;
-    background-image: linear-gradient(#2b2929, #0c0c0c,#050505);
+    background-image: linear-gradient(#44e976, #19b803,#44e976);
     position: relative;
     left: 3%;
     height: 500px;
     border-radius: 10px;
+    color: black;
 }
 .main_Sections
 {
-    background-image: linear-gradient(#2b2929, #0c0c0c,#050505);
+    background-image: linear-gradient(#44e976, #19b803,#44e976);
     height: max-content;
     position: relative;
     left: 1%;
     border-radius: 10px;
     width: 90%;
+    color: black;
 }
 ul
 {
@@ -95,10 +102,44 @@ ul
 }
 .js
 {
- background-color: yellowgreen;
+ background-color: rgb(51, 71, 11);
 }
 .py
 {
 
     background-color: green;
+}
+@media (max-width:1493px) {
+    
+    .Long_Items
+    {
+        height: 700px;
+    }
+}
+@media (max-width:967px) {
+    .Main_Main
+    {
+        height: 3500px;
+        margin-bottom: 450px;
+    }
+    .Qna
+    {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        overflow-y: scroll;
+        height: 1500px;
+    }
+    .The_qna__main_Sections
+    {
+        margin-top: 10px;
+    }
+    .Main_Other_Main
+    {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 3%;
+    }
 }

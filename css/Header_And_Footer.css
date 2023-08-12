@@ -42,7 +42,7 @@ a
 }
 .Main_Main
 {
-    background-color: rgb(7, 25, 73);
+    background-color: rgb(26, 54, 197);
     width: 99%;
     height: 1900px;
     position: relative;
@@ -50,7 +50,7 @@ a
     left: 0.5%;
     text-align: center;
     font-size: xx-large;
-    color: snow;
+    color: black;
 }
 .Main_Footer ul
 {
