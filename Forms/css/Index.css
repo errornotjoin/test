@@ -1,0 +1,57 @@
+.Main_Itmes_For_Forms
+{     
+    position: relative;
+    top: 50px;
+    background-image: linear-gradient(#44e976, #19b803,#44e976);
+    text-align: center;
+    height: 2000px;
+    width: 50%;
+
+    border-radius: 10px;
+}
+.Main_Itmes_For_Forms_At_Aside
+{
+
+    position: sticky;
+    top: 50px;
+    background-image: linear-gradient(#44e976, #19b803,#44e976);
+    text-align: center;
+    width: 10%;
+    height: 500px;
+    left: 1%;
+    border-radius: 10px;
+
+}
+.Main_Items
+{
+    position: relative;
+    left: 10%;
+    gap: 5%;
+    display: flex;
+}
+.The_aside_Forms
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(#252525, #363131,#222020);
+    gap: 15%;
+    color: snow;
+}
+.The_aside_Forms legend
+{
+    margin-bottom: 20px;
+    display: flex;
+    position: relative;
+    left: 5%;
+    font-size: 16px;
+
+}
+.buttongs_items
+{
+    width: 100%;
+    background-color: #19b803;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
