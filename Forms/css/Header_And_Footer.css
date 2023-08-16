@@ -5,6 +5,7 @@ body
     margin-top:0px;
     padding: 0px;
     background-color: black;
+    background-image: url(/imgs/errornotjoin.png);
 }
 a
 {
