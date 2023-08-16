@@ -55,3 +55,32 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+.Forms_Lay_out
+{
+   color: snow;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+   background-image: linear-gradient(#252525, #363131,#222020);
+   height: 150px;
+   width: 100%;
+   position: relative;
+   left: 0%;
+   border-radius: 10px;
+}
+.Forms_Info
+{
+    position: relative;
+    top: 20px;
+    gap: 10%;
+    display: grid;
+    grid-template-columns: 55% 50%;
+    grid-template-rows: 20% 20% 20%;
+    right: 5%;
+    width: 100%;
+
+}
+.Title_items
+{
+    width: 100%;
+    font-size: larger;
+}
