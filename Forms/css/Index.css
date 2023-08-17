@@ -203,15 +203,16 @@
 }
 .The_Main_Relpy
 {
-    font-size: larger;
-    color: snow;
-    background-color: #222020;
+    font-size: 20px;
+    color: rgb(8, 8, 10);
+    background-image: linear-gradient(#87e0a2, #366b2f,#235332);
     width: 95%;
+    font-weight: 800;
     position: relative;
     left: 2%;
     border-radius: 10px;
     border: 2px black solid;
-    height: 200px;
+    height: 270px;
 }
 .The_Main_Relpy .Forms_Info
 {
