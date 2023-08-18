@@ -220,3 +220,41 @@
     left: 20%;
     font-size: smaller;
 }
+.Need_MOre_Hight
+{
+    height: 1000px;
+}
+.The_aside_Forms .Onlines,.offlines,.Away
+{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(9, 241, 79);
+}
+.offlines
+{
+    background-color: #000000;
+}
+.The_People_Link
+{
+
+    background-image: linear-gradient(#87e0a2, #366b2f,#235332);
+}
+.Away
+{
+    background-color: #f7df05;
+}
+.Must_Have_A_gap
+{
+    display: flex;
+    gap: 4%;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 400px;
+}
+.Website_Info
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10%;
+    font-size: 20px;
+}
