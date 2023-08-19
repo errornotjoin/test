@@ -1,260 +1,53 @@
-.Main_Itmes_For_Forms
-{     
-    position: relative;
-    top: 50px;
-    background-image: linear-gradient(#44e976, #19b803,#44e976);
-    text-align: center;
-    height: 2000px;
-    width: 50%;
-
-    border-radius: 10px;
-}
-.Main_Itmes_For_Forms_At_Aside
+.Top
 {
-
-    position: sticky;
-    top: 50px;
-    background-image: linear-gradient(#44e976, #19b803,#44e976);
-    text-align: center;
-    width: 10%;
-    height: 500px;
-    left: 1%;
-    border-radius: 10px;
-
-}
-.Main_Items
-{
-    position: relative;
-    left: 10%;
-    gap: 5%;
-    display: flex;
-}
-.The_aside_Forms
-{
+    background-image: linear-gradient(#5da1b6, #325f6d, #2a4c57);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    background-image: linear-gradient(rgb(26, 117, 10), rgb(7, 14, 6));
-    gap: 15%;
-    width: 95%;
-    position: relative;
-    left: 3%;
-    color: snow;
-    border-radius: 10px;
-
-}
-.The_aside_Forms legend
-{
-    margin-bottom: 20px;
-    display: flex;
-    position: relative;
-    left: 5%;
-    font-size: 16px;
-
-}
-.buttongs_items
-{
-    width: 100%;
-    background-color: #19b803;
-    border: none;
+    height: 50px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-}
-.Forms_Lay_out
-{
-   color: black;
-    display: flex;
-    flex-direction: column;
-    background-image: linear-gradient(rgb(46, 250, 10), rgb(7, 14, 6));
-   height: 150px;
-   width: 95%;
-   position: relative;
-   left:2%;
-   border-radius: 10px;
-   box-shadow: 5px 5px 10px black;
-}
-.Space_them_out
-{
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 0px;
-    text-align: center;
     justify-content: center;
     gap: 5%;
+    z-index: 1;
+    box-shadow: 0px 10px 10px black;
 }
-.Forms_Info
+.Top section
 {
-    position: relative;
-    top: 20px;
-    gap: 10%;
     display: flex;
-    left: 10%;
-    width: 100%;
-    font-weight: 400px;
-    color: snow;
+    justify-content: center;
 }
-.Title_items
+.Top button
 {
-    width: 100%;
-    font-size: larger;
-    margin-top: 0px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: snow;
-}
-.Title_items h2
-{
-    margin-bottom: 0px;
-    color:black;
-}
-.typic_Sections
-{
-    background-image: linear-gradient(#87e0a2, #366b2f,#235332);
-    width: 95%; 
-    position: relative;
-    left: 2%;
-    border-radius: 10px;  
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    gap: 5%;
-    border:#222020 2px solid;
-}
-.OutSide_Section
-{ 
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 55%;
-}
-.Show_More_ITems_button
-{
-    width: 50%;
-    position: relative;
-    left: 25%;
-    height: 30px;
+    background-color: #213d46;
+    border: none;
     border-radius: 10px;
-    background-image: linear-gradient(rgb(52, 114, 41), rgb(23, 48, 18));
-    color: snow;
-}
-.input_items
-{
-    width: 100%;
+    height: 30px;
     position: relative;
-    left: 0%;
-    border-radius: 0px;
-}
-.Something
-{
-    width: 95%;
+    top: 10px;
+    border: 1px black solid;
     color: snow;
 }
 ::placeholder
 {
     color: snow;
 }
-.The_User_Made_Items
+.Top input
 {
+    background-color: #213d46;
+   height: 20px;
    position: relative;
-   top: 50px;
-   background-image: linear-gradient(#87e0a2, #366b2f,#235332);
-   height: 1000px;
-   display: flex;
-   flex-direction: column;
-   gap: 5%;
-   border-radius: 10px;
-   overflow-y: scroll;
+   top: 10px;
+   border-radius: 5px;
+   border: none;
+   border: 1px black solid;
+    color: snow;
 }
-.new_Layout
-{
-    height:300px;
-
-}
-.Gide
-{
-    border: none;
-
-}
-.item
-{
-    margin-left: 0px;
-    padding: 0px;    
-}
-.The_Rely_Items
-{
-    display: flex;
-    gap: 5%;
-
-}
-.The_Rely_Items p
-{
-    display: none;
-    font-size: larger;
-    background-color: #55f70a;
-    border-radius: 10px;
-    border-top-left-radius: 0px;
-    position: relative;
-    right: 55%;
-    color: black;
-}
-.The_Rely_Items:hover p 
-{
-    display: inline-block;
-}
-.The_Main_Relpy
-{
-    font-size: 20px;
-    color: rgb(8, 8, 10);
-    background-image: linear-gradient(#87e0a2, #366b2f,#235332);
-    width: 95%;
-    font-weight: 800;
-    position: relative;
-    left: 2%;
-    border-radius: 10px;
-    border: 2px black solid;
-    height: 270px;
-}
-.The_Main_Relpy .Forms_Info
+.Forms_Main_Holder
 {
     position: relative;
-    left: 20%;
-    font-size: smaller;
-}
-.Need_MOre_Hight
-{
-    height: 1000px;
-}
-.The_aside_Forms .Onlines,.offlines,.Away
-{
+    top: 50px;
+    background-image: linear-gradient(#00c3ff, #00607e, #022f3d);
     width: 100%;
-    height: 10px;
-    background-color: rgb(9, 241, 79);
-}
-.offlines
-{
-    background-color: #000000;
-}
-.The_People_Link
-{
-
-    background-image: linear-gradient(#87e0a2, #366b2f,#235332);
-}
-.Away
-{
-    background-color: #f7df05;
-}
-.Must_Have_A_gap
-{
-    display: flex;
-    gap: 4%;
-    flex-direction: column;
-    overflow-y: scroll;
-    height: 400px;
-}
-.Website_Info
-{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 10%;
-    font-size: 20px;
+    height: 1000px;
+    border-radius: 10px;
 }
