@@ -1,46 +1,45 @@
 .Top
 {
-    background-image: linear-gradient(#5da1b6, #325f6d, #2a4c57);
+    width: 100%;
     display: flex;
     flex-direction: column;
-    height: 50px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    justify-content: center;
-    gap: 5%;
-    z-index: 1;
-    box-shadow: 0px 10px 10px black;
+    gap: 10%;
+
 }
-.Top section
+.Top_items
 {
+    height: 50px;
+    background-image: linear-gradient(#0400ff, #06049c, #030246);
     display: flex;
     justify-content: center;
+    gap: 2%;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 10px 10px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
 }
-.Top button
+.Top_items button, .For_Opts button
 {
-    background-color: #213d46;
-    border: none;
-    border-radius: 10px;
     height: 30px;
     position: relative;
     top: 10px;
-    border: 1px black solid;
+    background-image: linear-gradient(#00c3ff, #00607e, #022f3d);
     color: snow;
+    border: 1px solid black;
 }
-::placeholder
+.For_Opts
 {
-    color: snow;
-}
-.Top input
-{
-    background-color: #213d46;
-   height: 20px;
-   position: relative;
-   top: 10px;
-   border-radius: 5px;
-   border: none;
-   border: 1px black solid;
-    color: snow;
+    
+    height: 50px;
+    background-image: linear-gradient(#3634a5, #06049c, #030246);
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    position: relative;
+    top: 5px;
 }
 .Forms_Main_Holder
 {
