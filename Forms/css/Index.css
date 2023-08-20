@@ -50,3 +50,30 @@
     height: 1000px;
     border-radius: 10px;
 }
+.Main_Forms
+{
+    display: flex;
+    justify-content: center;
+    gap: 0.5%;
+}
+.Header_for_the_Forms
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 100%;
+}
+.What_type_of_Forms_The_User_looking_for
+{
+
+}
+.What_type_of_Forms_The_User_looking_for button
+{
+    border: none;
+    border-radius: 5px;
+    color: snow;
+    background-color: #001f29;
+    height: 30px;
+}
