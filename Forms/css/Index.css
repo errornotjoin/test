@@ -77,3 +77,43 @@
     background-color: #001f29;
     height: 30px;
 }
+.user_Forms
+{
+  
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+    margin-top: 10px;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.user_Forms button{
+    background-image: linear-gradient(#00c3ff, #00607e, #022f3d);
+    width: 90%;
+    position: relative;
+    left: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.user_Forms button:hover
+{
+    box-shadow: 10px 10px 100px black;
+    background-color: #06049c;
+}
+.user_New_Forms
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    justify-content: center;
+     width: 20%;
+     background-color: #00222c;
+     text-align: center;
+     position: relative;
+     left:1%;
+     border-radius: 10px;
+     box-shadow: 10px 0px 10px black;
+    
+}
