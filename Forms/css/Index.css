@@ -166,8 +166,16 @@ audio
     justify-content: center;
     text-align: center;
 }
-#Move_It_By_Abit{
+#Move_It_By_Abit,.Move_It_By_Abit
+{
     display: flex;
     gap: 40%;
     text-align: start;
+}
+
+.Move_It_By_Abit
+{
+display: flex;
+gap: 50%;
+flex-direction: row;
 }
