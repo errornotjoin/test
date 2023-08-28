@@ -179,3 +179,31 @@ display: flex;
 gap: 50%;
 flex-direction: row;
 }
+@media (max-width:1155px) {
+    .Last_Ttems
+    {
+        display: none;
+    }
+    
+}
+@media (max-width:651px) {
+    .user_New_Forms
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .user_New_Forms button
+    {
+        width: 95%;
+        position: relative;
+        margin-right: 10px;
+    }
+    
+}
+@media (max-width:463px) {
+    .The_Forms
+    {
+      height: 200px;
+    }
+    
+}
