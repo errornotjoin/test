@@ -19,17 +19,47 @@
 {
     margin-top: 10px;
     margin-bottom: 10px;
-    background-image: linear-gradient(#00c3ff, #00607e, #022f3d);
+    background-image: linear-gradient(#290101, #ad0505, #3d0e02);
     display: flex;
     gap: 5%;
     width: 95%;
     position: relative;
     left: 2%;
     border-radius: 10px;
+    height: 450px;
+}
+.text_right:hover
+{
+    background-image: linear-gradient(90deg, #ce3131, #630303, #491306);
+    color: snow;
+    box-shadow: -100px 0px 100px black;
+}
+.text_left:hover
+{
+    background-image: linear-gradient(-90deg, #ce3131, #630303, #490606);
+    color: snow;
+    box-shadow: 100px 0px 100px black;
 }
 .main_projects section
 {
     width: 50%;
+}
+.The_info,.right
+{
+    background-image: linear-gradient(#2c444b, #046c8b, #022f3d);
+    border: black 6px solid;
+    height:400px;
+    width: 95%;
+    position: relative;
+    left: 2%;
+    border-radius: 10px;
+    top: 20px;
+}
+.right
+{
+    position: relative;
+    left: -2%;
+
 }
 .Times
 {
