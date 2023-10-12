@@ -30,7 +30,7 @@
 }
 .text_right:hover
 {
-    background-image: linear-gradient(90deg, #ce3131, #630303, #491306);
+    background-image: linear-gradient(90deg, #ce3131, #630303, #490606);
     color: snow;
     box-shadow: -100px 0px 100px black;
 }
@@ -46,8 +46,8 @@
 }
 .The_info,.right
 {
-    background-image: linear-gradient(#2c444b, #046c8b, #022f3d);
-    border: black 6px solid;
+
+    border: black 10px double;
     height:400px;
     width: 95%;
     position: relative;
