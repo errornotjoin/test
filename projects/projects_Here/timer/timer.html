@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Rajdhani:wght@300;400&display=swap" rel="stylesheet">
-    <title>Home - ErrorNOtjoin</title>
+    <title>projects Timer - ErrorNOtjoin</title>
     <script src="https://kit.fontawesome.com/60adc08c28.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/Header_And_Footer.css">
-    <link rel="stylesheet" href="css/index_css/Main_Size.css">
+    <link rel="stylesheet" href="/css/Header_And_Footer.css">
+    <link rel="stylesheet" href="Timer.css">
 </head>
 <body>
     <header class="Main_Back_ground">
         <h1 class="Some_Header">ErrorNotJoin.com</h1>
         <div>
-            <h2 class="" >Home</h2>
+            <h2 class="" >Timer</h2>
         </div>
         <div class="Links_Divs">
             <a class="" href="index.html">Home</a>
@@ -26,7 +26,38 @@
         </div>
     </header>
     <main class="Main_Main">
-        
+        <header class="Main_Header">
+            <button>Back</button>
+            <h3>
+                Timer Stlye
+                <small>
+                    <span>No: 0</span>
+                </small>
+            </h3>
+            <button>Next</button>
+        </header>
+        <main class="Timer_body">
+            <section class="Timer_Part">
+                <h3>hour</h3>
+                <input type="number" min="1" placeholder="00" max="60">
+                <button>
+                    STOP
+                </button>
+            </section>
+            <section class="Timer_Part">
+                <h3>Mintes</h3>
+                <input type="number" min="1" placeholder="00" max="60">
+                <button>
+                        Restart
+                </button>
+            </section>
+            <section class="Timer_Part">
+                <h3>Secsons</h3>
+                <input type="number" min="1" placeholder="00" max="60">
+                <button>
+                    START
+                </button>
+            </section>
         </main>
 
     </main>

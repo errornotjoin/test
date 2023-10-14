@@ -1,0 +1,65 @@
+.Main_Header
+{
+    display: flex;
+    position: relative;
+    top: 100px;
+    width: 100%;
+    background-color: #00c3ff;
+    gap: 45.5%;
+}
+.Main_Header button
+{
+    width: 100%;
+    background-color: rgb(117, 117, 117);
+    color: snow;
+    border: 0px;
+    
+}
+.Timer_body
+{
+    display:flex ;
+    position: relative;
+    top: 300px;
+    
+    gap: 5%;
+    width: 100%;
+}
+.Timer_body section
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    background-image: linear-gradient(#00c3ff, #00607e, #022f3d);
+    border-radius: 10px;
+    height: 600px;
+}
+.Timer_body section button
+{
+    height: 100px;
+    width: 95%;
+    margin-left: 15px;
+    background-color: #037ca1;
+    color: snow;
+}
+input
+{
+    position: relative;
+    left: 9%;
+    width: 80%;
+    height: 300px;
+    font-size: 100px;
+    text-align: center;
+    background-color: #00607e;
+    color: snow;
+}
+.Timer_body section button:hover, .Timer_body section input:hover
+{
+    background-image: linear-gradient(#022f3d, #046c8b, #022f3d);
+    box-shadow: 10px 10px 100px black;
+}
+::-webkit-inner-spin-button
+{
+    height: 500px;
+    background-color: brown;
+}
