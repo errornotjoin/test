@@ -63,3 +63,63 @@ input
     height: 500px;
     background-color: brown;
 }
+@media (max-width:1630px) {
+    .Main_Header
+    {
+        width: 95%;
+        position: relative;
+        left: 2%;
+    }
+}
+
+@media (max-width:1399px) {
+    .Main_Header
+    {
+        width: 90%;
+        position: relative;
+        left: 2%;
+    
+    }
+}
+@media (max-width:1063px) {
+    .Main_Header
+    {
+        width: 85%;
+        position: relative;
+        left: 2%;
+    }
+    .Timer_body
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 1%;
+    }
+    .Timer_body button
+    {
+        margin-top: 15px;
+        position: relative;
+        left: 1.5%;
+    }
+}
+@media (max-width:821px)
+{
+    .Main_Header
+    {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        gap: 5%;
+    }
+    .Main_Header button
+    {
+        height: 50px;
+    }
+}
+@media (max-width:467px)
+{
+    .Timer_body button
+    {
+        position: relative;
+        left: 0.5%;
+    }
+}

@@ -208,3 +208,10 @@ li
     }
 
 }
+@media (max-width:833px) {
+    .Main_Back_ground
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
