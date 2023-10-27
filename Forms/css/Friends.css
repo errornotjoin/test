@@ -1,0 +1,115 @@
+.The_Main_Body_for_Somethings
+{
+    position: relative;
+    top: 100px;
+    background-image: linear-gradient(#525050, #353535, #161616);
+    height: 1000px;
+    border-radius: 10px;
+    width: 80%;
+    left: 10%;
+}
+.Main_Header_Things
+{
+    background-image: linear-gradient(#252525, #121213, #000000);
+    height: 130px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 10px 20px black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: snow;
+    font-size: larger;
+
+}
+.Main_Header_Things button
+{
+    background-color: rgb(9, 127, 182);
+    border: none;
+    height: 30px;
+    color: snow;
+    border-radius: 10px;
+    margin-left: 40px;
+    font-size: large;
+}
+.The_Main_Body_for_website
+{
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction:column;
+    
+}
+.header_Thingss
+{
+    position: relative;
+    width: 95%;
+    background-color: #19191a;
+    color: snow;
+    font-size: large;
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    left: 2%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.header_Thingss span
+{
+    text-align: center;
+    margin-left: 130px;
+}
+.Sec
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% ;
+    gap: 5%;
+
+}
+.The_Friends_info_box img
+{
+    width: 50%;
+    height: 100px;
+    position: relative;
+    top: 45px;
+    left: 5%;
+    border-radius: 10px;
+}
+.The_Friends_info_box
+{
+    background-image: linear-gradient(#252525, #121213, #000000);
+    
+    border-radius: 10px;
+    width: 100%;
+    color: snow;
+    display: flex;
+    gap: 15%;
+    margin-left: 10px;
+}
+.The_Friends_info_box:hover
+{
+    box-shadow: 0px 10px 100px black;
+    background-image: linear-gradient(#000000, #252525, #000000);
+}
+.The_Friends_info_box h3
+{
+    background-color: #525050;
+    text-align: center;
+    position: relative;
+    right: 10%;
+    border-radius: 10px;
+}
+.Online
+{
+    height: 10px;
+    width: 30%;
+    background-color: rgb(0, 253, 21);
+   
+}
+.offline
+{
+    height: 10px;
+    width: 30%;
+    background-color: rgb(0, 0, 0);
+}
