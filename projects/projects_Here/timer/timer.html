@@ -7,7 +7,7 @@
     <title>projects Timer - ErrorNOtjoin</title>
     <script src="https://kit.fontawesome.com/60adc08c28.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/Header_And_Footer.css">
-    <link rel="stylesheet" href="Timer.css">
+    <link rel="stylesheet" id="The_style_sheet" href="Time_stlye_two.css">
 </head>
 <body>
     <header class="Main_Back_ground">
@@ -16,45 +16,49 @@
             <h2 class="" >Timer</h2>
         </div>
         <div class="Links_Divs">
-            <a class="" href="index.html">Home</a>
-            <a class="" href="projects.html">Projects</a>
-            <a class="" href="video.html">Videos</a>
-            <a class="" href="Blog.html">Updates</a>
-            <a class="" href="info.html">help </a>
+            <a class="" href="/index.html">Home</a>
+            <a class="" href="/projects.html">Projects</a>
+            <a class="" href="/video.html">Videos</a>
+            <a class="" href="/Blog.html">Updates</a>
+            <a class="" href="/info.html">help </a>
 
 
         </div>
     </header>
     <main class="Main_Main">
         <header class="Main_Header">
-            <button>Back</button>
+            
             <h3>
                 Timer Stlye
                 <small>
-                    <span>No: 0</span>
+                    <span id="The_stlye_Number">No: 0</span>
                 </small>
             </h3>
-            <button>Next</button>
+            <div>
+                <button id="Back_button">Back</button>
+                <button id="Next_button">Next</button>
+            </div>
+            
         </header>
         <main class="Timer_body">
             <section class="Timer_Part">
                 <h3>hour</h3>
                 <input type="number" id="Hour" min="1" placeholder="00" max="60">
-                <button id="Stop">
+                <button id="Stop" class="Stop">
                     STOP
                 </button>
             </section>
             <section class="Timer_Part">
                 <h3>Mintes</h3>
                 <input type="number" id="Minets" min="1" placeholder="00" max="60">
-                <button id="Restart">
+                <button id="Restart" class="Restart">
                         Restart
                 </button>
             </section>
             <section class="Timer_Part">
                 <h3>Secsons</h3>
                 <input type="number" id="Sencons" min="1" placeholder="00" max="60">
-                <button id="Start">
+                <button id="Start" class="Go">
                     START
                 </button>
             </section>
@@ -89,5 +93,6 @@
         </ul>
 </footer>
     <script src="timer_count_Down.js"></script>
+    <script src="slay.js"></script>
 </body>
 </html>

@@ -3,17 +3,38 @@
     display: flex;
     position: relative;
     top: 100px;
-    width: 100%;
-    background-color: #00c3ff;
-    gap: 45.5%;
+    width: 95%;
+    background-color: #024f66;
+    flex-direction: column;
+    color: snow;
+    left: 2%;
+    border-radius: 10px;
+    box-shadow: 00px 100px 100px black;
+}
+.Main_Header div
+{
+    display: flex;
+    width: 95%;
+    gap: 1%;
+}
+.Main_Header div button
+{
+    position: relative;
+    left: 2%;
+    width: 95%;
+    height: 30px;
+
 }
 .Main_Header button
 {
     width: 100%;
-    background-color: rgb(117, 117, 117);
-    color: snow;
+    background-image: linear-gradient(#ff0000, #bd0404, rgb(136, 3, 3));
+    color: rgb(2, 2, 2);
     border: 0px;
-    
+    border-radius: 10px;
+    position: relative;
+    bottom: 10px;
+    font-size: large;
 }
 .Timer_body
 {
