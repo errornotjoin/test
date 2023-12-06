@@ -86,7 +86,7 @@ input
     text-align: center;
     font-size: 100px;
 }
-value
+
 .Timer_body section button:hover, .Timer_body section input:hover
 {
     background-image: linear-gradient(#022f3d, #046c8b, #022f3d);
