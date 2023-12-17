@@ -19,6 +19,7 @@ body,.history_background
   width: 90%;
   border: none;
   background-color: #000000;
+  color: snow;
 }
 .Aside_body
 {
@@ -36,4 +37,24 @@ body,.history_background
   left: 2%;
   border-radius: 10px;
 
+}
+.Main_header
+{
+  position:  absolute;
+  top: 350px;
+  width: 95%;
+  background-color: #0d0d0e;
+  height: 50px;
+  left: 2%;
+  display: flex;
+}
+.Main_header button
+{
+  position: relative;
+  top: 10px;
+  width: 95%;
+  height: 30px;
+  background-image: linear-gradient(#1d1d1d, #0d0d0e, #000000);
+  color: snow;
+  font-size: large;
 }
