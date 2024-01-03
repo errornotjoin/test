@@ -190,21 +190,24 @@ flex-direction: row;
     {
         display: none;
     }
+
+    
     
 }
 @media (max-width:651px) {
+
     .user_New_Forms
     {
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
-    .user_New_Forms button
+    .user_Forms button
     {
         width: 95%;
         position: relative;
-        margin-right: 10px;
+        left: 3%;
     }
-    
 }
 @media (max-width:463px) {
     .The_Forms
