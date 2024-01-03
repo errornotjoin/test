@@ -21,9 +21,9 @@
                     <h4>Colour</h4>
                     <input id="Main_ani_1_3"type="color">
                     <h4>width</h4>
-                    <input id="Main_width_1" type="number">
+                    <input min="0" value="30" id="Main_width_1" type="number">
                     <h4>hight</h4>
-                    <input id="Main_hight_1" type="number">
+                    <input min="0" value="30" id="Main_hight_1" type="number">
                 </div>
         </section>
         <section class="Main_body">
@@ -38,9 +38,9 @@
                 <h4>Colour</h4>
                 <input id="Main_ani_2_3"type="color">
                 <h4>width</h4>
-                <input id="Main_width_2" type="number">
+                <input min="0" value="30" id="Main_width_2" type="number">
                 <h4>hight</h4>
-                <input id="Main_hight_2" type="number">
+                <input min="0" value="30" id="Main_hight_2" type="number">
             </div>
         </section>
         <section class="Main_body">
@@ -55,9 +55,9 @@
                 <h4>Colour</h4>
                 <input id="Main_ani_3_3"type="color">
                 <h4>width</h4>
-                <input id="Main_width_3" type="number">
+                <input min="0" value="50"id="Main_width_3" type="number">
                 <h4>hight</h4>
-                <input id="Main_hight_3" type="number">
+                <input min="0" value="30"id="Main_hight_3" type="number">
             </div>
         </section>
         <section class="Main_body">
@@ -65,9 +65,10 @@
             <div class="Main_background_input">
                 <div class="history_background">
                     <h4>How Many Divs</h4>
-                    <input type="number" id="Max_divs" placeholder="100">
+                    <input type="number" min="0" value="0" id="Max_divs" placeholder="100">
                     <h4>time</h4>
-                    <input id="The_Timer" type="number">
+                    <input id="The_Timer" min="0" value="0" type="number">
+                    <div>Divs made: 0/<span id="Max_div_number">0</span></div>
                 </div>
             </div>
         </section>
@@ -77,7 +78,7 @@
         <button>Restart</button>
         <button id="Start">Start</button>
     </header>
-    <main id="Div_maker">
+    <main id="Div_maker" class="Div_maker">
 
     </main>
     <script src="div_maker_js.js"></script>

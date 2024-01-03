@@ -98,6 +98,17 @@ li
 {
     display: none;
 }
+.note
+{
+    position: relative;
+    top: 200px;
+    background-color: black;
+    color: snow;
+    width: 50%;
+    left: 25%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 100px black;
+}
 @media (max-width:1625px) {
     .Main_Back_ground
     {

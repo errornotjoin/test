@@ -1,67 +1,91 @@
-.Main_Header
+.background
 {
-
+    background-image: linear-gradient(#464545,#2e2e2e,#181717);
+}
+.Self_header,.Top_holder
+{
+    position: relative;
+    z-index: 1;
+    background-image: linear-gradient(#464545,#2e2e2e,#181717);
+    color: rgb(221, 218, 218);
+    height: 60px;
+    box-shadow: 0px 10px  10px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.Top_holder
+{
+    box-shadow: 0px -10px 10px black;
+    height: 30px;
+    z-index: 1;
+    position: relative;
+}
+.Self_header h2
+{
+    position: relative;
+    top: 10px;
+    left: 42%;
+    border-radius: 10px;
+    background-color: #181717;
+    width: 10%;
+    height: 40px;
+    text-align: center;
+}
+.self
+{
+    display: flex;
+    gap: 1%;
+    height: 500px;
+}
+.two
+{
+    height: 200px;
+    width: 5%;
+    box-shadow: 10px 0px 10px black;
+    background-color: #181717;
+}
+.The_back_ground
+{
+    width: 100%;
+    text-align: center;
+}
+.paper
+{
+    background-color: #fffefe;
+    border-radius: 10px;
+    width: 95%;
+    color: black;
+    position: relative;
+    left: 2%;
+    top: 10px;
+    height: 30px;
+}
+.Back_of_the_file
+{
+    background-color: #854d05c4;
+    height: 200px;
+    border-radius: 10px;
+}
+.The_file
+{
+    position: relative;
+    z-index: 1;
+    background-color: #d37a06c4;
+    height: 150px;
+    border-radius: 10px;
+}
+.empyty{color: #181717;}
+.empyty h3
+{
     position: relative;
     top: 50px;
-    color: snow;
-    background-image: linear-gradient(#022f3d, #046c8b, #022f3d);
-}
-.The_Prjects_Home
-{
-  position: relative;
-  top: 100px;
-  display: flex;
-  flex-direction: column;
-  gap: 50%;
-
-}
-.main_projects
-{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-image: linear-gradient(#290101, #ad0505, #3d0e02);
-    display: flex;
-    gap: 5%;
-    width: 95%;
-    position: relative;
-    left: 2%;
+    font-size: 35px;
+    color: rgb(8, 8, 8);
+    background-color: red;
     border-radius: 10px;
-    height: 450px;
+    text-shadow: 0px 0px 1px black;
 }
-.text_right:hover
+.Back_of_the_file:hover
 {
-    background-image: linear-gradient(90deg, #ce3131, #630303, #490606);
-    color: snow;
-    box-shadow: -100px 0px 100px black;
-}
-.text_left:hover
-{
-    background-image: linear-gradient(-90deg, #ce3131, #630303, #490606);
-    color: snow;
-    box-shadow: 100px 0px 100px black;
-}
-.main_projects section
-{
-    width: 50%;
-}
-.The_info,.right
-{
-
-    border: black 10px double;
-    height:400px;
-    width: 95%;
-    position: relative;
-    left: 2%;
-    border-radius: 10px;
-    top: 20px;
-}
-.right
-{
-    position: relative;
-    left: -2%;
-
-}
-.Times
-{
-    color: rgb(165, 165, 165);
+ box-shadow: 10px 10px 10px black;
 }
