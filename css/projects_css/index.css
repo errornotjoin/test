@@ -1,6 +1,6 @@
 .background
 {
-    background-image: linear-gradient(#464545,#2e2e2e,#181717);
+    background-image: linear-gradient(#464645,#2e2e2e,#181717);
 }
 .Self_header,.Top_holder
 {
@@ -63,7 +63,7 @@
 .Back_of_the_file
 {
     background-color: #854d05c4;
-    height: 200px;
+    height: 190px;
     border-radius: 10px;
 }
 .The_file
@@ -74,7 +74,16 @@
     height: 150px;
     border-radius: 10px;
 }
-.empyty{color: #181717;}
+.empyty .The_file
+{
+    display: none;
+}
+.empyty{
+    color: #181717;
+    position: relative;
+    bottom: 20px;
+    height: 200px;
+}
 .empyty h3
 {
     position: relative;
@@ -85,7 +94,21 @@
     border-radius: 10px;
     text-shadow: 0px 0px 1px black;
 }
+.Back_of_the_file:hover .paper
+{
+    height: 50px;
+
+}
+.Back_of_the_file:hover .The_file
+{
+    box-shadow: 0px -5px 10px black;
+}
 .Back_of_the_file:hover
 {
- box-shadow: 10px 10px 10px black;
+    box-shadow: 10px 0px 10px black;
+}
+.Top_holder
+{
+    position: relative;
+    bottom: 300px;
 }
