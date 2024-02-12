@@ -1,0 +1,27 @@
+.Main_Main
+{
+    position: relative;
+    left: 1%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 3%;
+    height: 700px;
+
+}
+.Info_Item
+{
+    position: relative;
+    top: 10px;
+    left: 5%;
+    height: 300px;
+    width: 100%;
+    background-color: #0a1227;
+    border-radius: 10px;
+}
+.Info_Item:hover
+{
+    
+        background-image: linear-gradient(#041a5e,#021038,#01081b);
+        box-shadow: 5px 5px 10px black;
+    
+}

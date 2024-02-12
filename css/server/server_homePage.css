@@ -1,0 +1,61 @@
+.Main_Main
+{
+    position: relative;
+    height: 1300px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+}
+.iner_Sections
+{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 2%;
+}
+.iner_Sections section
+{
+    position: relative;
+    top: 10px;
+    left: 6%;
+    height: 300px;
+    width: 100%;
+    background-color: #0a1227;
+    border-radius: 10px;
+}
+.iner_Sections section:hover
+{
+    
+        background-image: linear-gradient(#041a5e,#021038,#01081b);
+        box-shadow: 5px 5px 10px black;
+    
+}
+ul
+{
+    overflow-y: scroll;
+    height: 200px;
+}
+li
+{
+    position: relative;
+    right: 4%;
+    margin-bottom: 10px;
+    list-style:lower-roman;
+
+    background-color: #01081b;
+}
+@media (max-width:740px) {
+    .iner_Sections
+    {
+       
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+    }
+    .iner_Sections section
+    {
+        position: relative;
+        left: 8%;
+        width: 80%;
+    }
+}
