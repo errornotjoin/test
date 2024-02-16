@@ -1,0 +1,114 @@
+@media (Max-width:1589px) {
+    .Main_Back_ground
+    {
+        display: grid;
+        grid-template-columns: 23% 35% 20%;
+        gap: 0%;
+    }
+    .Main_Footer
+    {
+
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        gap: 2%;
+
+    }
+    .Main_Footer ul
+    {
+        position: relative;
+        left: 10%;
+    }
+        .Cookie_items
+    {
+        display: grid;
+        grid-template-columns: 100% 50%;
+    }
+    .Cookie_items li
+    {
+        width: 100%;
+    }
+}
+@media (Max-width:1466px) {
+    .Main_Back_ground
+    {
+        display: grid;
+        grid-template-columns: 23% 33% 20%;
+        gap: 0%;
+    }
+    
+}
+@media (Max-width:1266px) {
+    .Main_Back_ground
+    {
+        display: grid;
+        grid-template-columns: 23% 28% 20%;
+        gap: 0%;
+    }
+    .Main_Footer ul
+    {
+        position: relative;
+        left: 5%;
+    }
+    .Main_Footer ul section
+    {
+        display: grid;
+        grid-template-columns: 25% 30% 30%;
+        gap: 1%;
+    }
+
+}
+@media (Max-width:1168px) {
+    .Main_Back_ground
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 0%;
+        text-align: center;
+    }
+    .Main_Footer
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .Main_Footer ul
+    {
+        position: relative;
+        left: 1%;
+        width: 80%;
+        left: 10%;
+    }
+    .Main_Footer ul section
+    {
+        display: grid;
+        grid-template-columns: 25% 30% 30%;
+        gap: 1%;
+    }
+    .Links_Divs
+    {
+        
+        height: 50px;
+        position: relative;
+        left: 10%;
+        top: 0px;
+
+    }
+     .Where_is_the_user
+     {display: none;}
+}
+@media (Max-width:946px) 
+{
+    .Links_Divs
+    {
+        
+        height: 50px;
+        position: relative;
+        left: 3%;
+        top: 0px;
+        gap: 3%;
+        overflow-y: scroll;
+    }
+}
+@media (Max-width:320px)
+{
+    
+}

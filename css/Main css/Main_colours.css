@@ -1,0 +1,111 @@
+body
+{
+
+    background-image: linear-gradient(#041a5e,#021038,#01081b);
+    height:1000px;
+ 
+    gap: 20%;
+    margin-top: 0px;
+    font-family: Kanit;
+}
+a 
+{
+    color: rgb(250, 22, 22);
+}
+.Main_Back_ground,main,footer
+{
+    background-color: #142c4d;
+    color: snow;
+    text-align: center;
+}
+.Main_Main
+{
+    position: relative;
+    top: 20px;
+    left: 2.5%;
+    border-radius: 10px;
+    background-color: #142c4d;
+    width: 95%;
+    height: 100px;
+    border-radius: 10px;
+
+}
+.Main_Back_ground 
+{
+    
+    margin-top: 0px;
+    box-shadow: 0px 10px 10px black;
+    display: grid;
+    grid-template-columns: 35% 20% 20%;
+    gap: 3%;
+    font-size: larger;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    text-shadow: 5px 5px 5px black;
+}
+.Links_Divs
+{
+    display: flex;
+    gap: 9%;
+    position: relative;
+    top: 60px;
+}
+.Links_Divs a
+{
+    height: 30px;
+}
+.Links_Divs section 
+{
+    color: snow;
+    background-color: #0a1227;
+    width: 100px;
+    border-radius: 5px;
+    height: 30px;
+    justify-content: center;
+    text-align: center;
+}
+.Links_Divs section:hover, .Main_Footer ul:hover
+{
+    background-image: linear-gradient(#041a5e,#021038,#01081b);
+    box-shadow: 5px 5px 10px black;
+}
+.Where_is_the_user
+{
+    position: relative;
+    top: 10px;
+    left: 7%;
+}
+.Main_Footer
+{
+    position: relative;
+    top: 50px;
+    display: grid;
+    grid-template-columns: 25% 20% 25%;
+    gap: 5%;
+    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: -0px -10px 10px black;
+}
+.Main_Footer ul
+{
+    border-radius: 10px;
+    position: relative;
+    left: 30%;
+    color: snow;
+    background-color: #0a1227;
+    width: 95%;
+    height: 200px;
+    text-align: center;
+}
+.Main_Footer li
+{
+    list-style: none;
+}
+.Main_Footer ul section
+{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    gap: 5%;
+}

@@ -1,0 +1,61 @@
+.Main_Main
+{
+    position: relative;
+    top: 20px;
+    left: 2.5%;
+    border-radius: 10px;
+    background-color: #142c4d;
+    width: 95%;
+    height: 800px;
+
+}
+.Header_for_the_projectfa
+{
+    background-image: linear-gradient(#041a5e,#021038,#01081b);
+    border-radius: 10px;
+    height: 100px;
+}
+.Header_for_the_projectfa button
+{
+    height: 30px;
+    background-color: #192f68;
+    color: snow;
+    border: none;
+    width: 30%;
+}
+.Header_for_the_projectfa button:first-child
+{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.Header_for_the_projectfa button:last-child
+{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.Header_for_the_projectfa button:hover
+{
+    box-shadow: 0px 10px 10px black;
+    background-image: linear-gradient(#041a5e,#021038,#01081b);
+}
+.Projects_holder
+{
+    position: relative;
+    top: 10px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap:2%;
+    justify-content: center;
+    overflow-y: scroll;
+    height: 700px;
+
+}
+.Porject
+{
+    position: relative;
+    left: 1%;
+    width: 100%;
+    height: 200px;
+    background-color: #0a1227;
+    border-radius: 10px;
+}
